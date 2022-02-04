@@ -41,9 +41,6 @@ class GameScene: SKScene {
     
     var emojiFace : emojiList?
     
-    
-    
-    
     override func didMove(to view: SKView) {
         localData = readLocalJSONFile(forName: "full-emoji-list")
         
